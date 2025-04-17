@@ -1,5 +1,5 @@
 # 💫 About Me:
-📌 Idade: 20 anos<br>🌎 Nacionalidade: Brasileiro<br>🎓 Formação: Estudante de Engenharia de Computação<br>💻 Atuação: Desenvolvedor Back-end & Front-end<br>🚀 Tecnologias: PHP, HTML
+📌 Idade: 20 anos<br>🌎 Nacionalidade: Brasileiro<br>🎓 Formação: Estudante de Engenharia de Computação<br>💻 Atuação: Desenvolvedor Back-end & Front-end<br>🚀 Tecnologias: PHP, HTML, JS, C#
 
 
 ## 🌐 Socials:
