@@ -9,7 +9,6 @@
 - 🎓 **Curso:** Engenharia de Computação (UNINGÁ - Centro Universitário Ingá)  
 - 🧠 **Áreas de atuação:** Desenvolvimento Back-end & Front-end  
 - 🚀 **Stack principal:** PHP, Laravel, JavaScript, TypeScript, MySQL  
-- ⚡ **Curiosidade:** Amo explorar tecnologias que resolvam problemas reais — inclusive fazer jogos em PHP! 😄
 
 ---
 
@@ -22,35 +21,7 @@
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
-
 ---
-
-### 💼 Experiência Profissional
-
-#### Bellinati Perez
-**Analista Desenvolvimento Júnior** (nov/2025 – o momento)  
-*Maringá, PR — Híbrido*  
-- Desenvolvimento e manutenção de aplicações com PHP puro e Laravel.  
-- Manutenção de bancos de dados SQL, análise de demandas e correção de bugs.  
-- Implementação de melhorias e suporte a sistemas em ambiente corporativo.
-
-**Estagiário de Desenvolvimento** (nov/2024 – nov/2025)  
-*Maringá, PR — Híbrido*  
-- Atuação no desenvolvimento de sistemas administrativos.  
-- Uso de PHP, GitLab e outras ferramentas do ecossistema.
-
-**Técnico de TI** (abr/2024 – nov/2024)  
-*Maringá, PR — Presencial*  
-- Suporte técnico à sede de Maringá: atendimento físico, reparo de máquinas, manutenção de servidores.  
-- Atuação com servicedesk e melhoria da eficiência operacional.
-
-**Técnico de TI — Estagiário** (mar/2023 – mar/2024)  
-*Maringá, PR — Presencial*  
-- Suporte técnico e manutenção de computadores.  
-- Atendimento presencial e resolução de problemas em infraestrutura de TI.
-
----
-
 ### 🛠️ Tecnologias que Uso
 
 **Linguagens**
