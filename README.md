@@ -41,14 +41,14 @@ stack:     PHP · C# · .NET · Laravel · Spring Boot · React · TypeScript ·
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Khyarus&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&border_radius=12"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Khyarus&show_icons=true&theme=default&hide_border=true&count_private=true&border_radius=12"/>
-  <img src="https://github-readme-stats.vercel.app/api?username=Khyarus&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&border_radius=12" width="49%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=Khyarus&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&border_radius=12"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=Khyarus&show_icons=true&theme=default&hide_border=true&count_private=true&border_radius=12"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=Khyarus&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&border_radius=12" width="49%"/>
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Khyarus&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&border_radius=12"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Khyarus&layout=compact&theme=default&hide_border=true&langs_count=8&border_radius=12"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khyarus&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&border_radius=12" width="41.5%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=Khyarus&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&border_radius=12"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=Khyarus&layout=compact&theme=default&hide_border=true&langs_count=8&border_radius=12"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Khyarus&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&border_radius=12" width="41.5%"/>
 </picture>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Khyarus&theme=tokyonight&hide_border=true&border_radius=12" width="90%"/>
