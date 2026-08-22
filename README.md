@@ -21,7 +21,7 @@ nome:      João Gabriel Cansi Silveira
 cargo:     Analista de Desenvolvimento Júnior @ Bellinati Perez
 trajetória: Suporte TI → Estágio Dev → Técnico TI → Analista Júnior
 formação:  Engenharia de Computação — UNINGÁ (conclusão prevista: 2026)
-stack:     PHP · C# · .NET · Laravel · Spring Boot · React · TypeScript · MySQL
+stack:     PHP · Laravel · React · TypeScript · MySQL
 ```
 
 <br/>
@@ -30,7 +30,7 @@ stack:     PHP · C# · .NET · Laravel · Spring Boot · React · TypeScript ·
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=php,laravel,cs,dotnet,spring,js,ts,react,mysql,git,gitlab,bootstrap,linux&theme=dark" />
+<img src="https://skillicons.dev/icons?i=php,laravel,js,ts,react,mysql,git,gitlab,bootstrap,linux&theme=dark" />
 
 </div>
 
