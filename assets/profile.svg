@@ -1,0 +1,289 @@
+<svg fill="none" viewBox="0 0 900 1050" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&amp;display=swap');
+
+        * { box-sizing: border-box; }
+
+        .container {
+          background-color: #0d1117;
+          border-radius: 16px;
+          border: 1.5px solid #30363d;
+          font-family: 'Fira Code', monospace;
+          padding: 0;
+          width: 100%;
+          min-height: 1030px;
+          color: #c9d1d9;
+          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+          overflow: hidden;
+        }
+
+        .header {
+          background: #161b22;
+          padding: 12px 20px;
+          display: flex;
+          align-items: center;
+          border-bottom: 1.5px solid #30363d;
+        }
+
+        .dots { display: flex; gap: 8px; }
+        .dot { width: 12px; height: 12px; border-radius: 50%; }
+        .red { background-color: #ff5f56; }
+        .yellow { background-color: #ffbd2e; }
+        .green { background-color: #27c93f; }
+
+        .title {
+          margin-left: auto;
+          margin-right: auto;
+          color: #8b949e;
+          font-size: 13px;
+          font-weight: 600;
+          letter-spacing: 0.5px;
+        }
+
+        .body { padding: 28px; font-size: 13.5px; line-height: 1.6; }
+
+        .prompt { color: #39d353; font-weight: 700; }
+        .path { color: #58a6ff; font-weight: 600; }
+        .cmd { color: #e6edf3; }
+        .comment { color: #8b949e; font-style: italic; }
+
+        .hero-title {
+          font-size: 24px;
+          font-weight: 700;
+          margin: 12px 0 4px 0;
+          background: linear-gradient(90deg, #58a6ff, #bc8cff, #39d353, #58a6ff);
+          background-size: 300% 100%;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: gradientShift 6s ease infinite;
+        }
+
+        @keyframes gradientShift {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+
+        .hero-sub { color: #8b949e; font-size: 14px; margin-bottom: 16px; }
+
+        .typewriter {
+          display: inline-block;
+          overflow: hidden;
+          white-space: nowrap;
+          border-right: 2px solid #58a6ff;
+          animation: typing 3.5s steps(45, end), blink 0.8s infinite;
+        }
+
+        @keyframes typing { from { width: 0; } to { width: 100%; } }
+        @keyframes blink { 0%, 100% { border-color: transparent; } 50% { border-color: #58a6ff; } }
+
+        .yaml-card {
+          background: #161b22;
+          border: 1px solid #30363d;
+          border-left: 4px solid #bc8cff;
+          border-radius: 8px;
+          padding: 14px 18px;
+          margin: 14px 0;
+          font-size: 13px;
+        }
+
+        .yaml-key { color: #79c0ff; font-weight: 600; }
+        .yaml-val { color: #a5d6ff; }
+
+        .social-group { display: flex; gap: 10px; margin: 16px 0; flex-wrap: wrap; }
+        .social-btn {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          padding: 6px 14px;
+          border-radius: 6px;
+          font-size: 12px;
+          font-weight: 700;
+          text-decoration: none;
+          color: #ffffff;
+        }
+        .bg-linkedin { background: #0a66c2; }
+        .bg-github { background: #21262d; border: 1px solid #30363d; }
+        .bg-email { background: #d14836; }
+
+        .section-title {
+          font-size: 15px;
+          font-weight: 700;
+          color: #58a6ff;
+          margin: 22px 0 10px 0;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+
+        /* Timeline de Experiência e Educação */
+        .timeline {
+          border-left: 2px solid #30363d;
+          padding-left: 16px;
+          margin-left: 6px;
+        }
+
+        .timeline-item {
+          position: relative;
+          margin-bottom: 14px;
+        }
+
+        .timeline-item::before {
+          content: '';
+          position: absolute;
+          left: -21px;
+          top: 6px;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background-color: #58a6ff;
+          box-shadow: 0 0 8px #58a6ff;
+        }
+
+        .item-role { color: #f0f6fc; font-weight: 700; font-size: 13.5px; }
+        .item-company { color: #bc8cff; font-weight: 600; font-size: 12.5px; }
+        .item-date { color: #8b949e; font-size: 11.5px; margin-bottom: 3px; }
+        .item-desc { color: #8b949e; font-size: 12px; line-height: 1.4; }
+
+        .tech-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+          gap: 8px;
+          margin-bottom: 14px;
+        }
+
+        .tech-badge {
+          background: #161b22;
+          border: 1px solid #30363d;
+          padding: 6px 10px;
+          border-radius: 6px;
+          text-align: center;
+          font-size: 11.5px;
+          font-weight: 600;
+          color: #c9d1d9;
+        }
+
+        .progress-bar-bg {
+          width: 100%;
+          height: 6px;
+          background: #21262d;
+          border-radius: 4px;
+          overflow: hidden;
+          margin-top: 6px;
+        }
+        .progress-bar-fill {
+          height: 100%;
+          width: 100%;
+          background: linear-gradient(90deg, #58a6ff, #39d353);
+          border-radius: 4px;
+          animation: fillProgress 2.5s ease-out;
+        }
+        @keyframes fillProgress { from { width: 0%; } to { width: 100%; } }
+      </style>
+
+      <div class="container">
+        <!-- Top Bar -->
+        <div class="header">
+          <div class="dots">
+            <div class="dot red"></div>
+            <div class="dot yellow"></div>
+            <div class="dot green"></div>
+          </div>
+          <div class="title">bash — khyarus@dev-station:~</div>
+        </div>
+
+        <div class="body">
+          <!-- Execução -->
+          <div>
+            <span class="prompt">➜ </span><span class="path">~/workspace </span><span class="cmd">./initialize_profile.sh</span>
+          </div>
+
+          <!-- Cabeçalho -->
+          <div class="hero-title">⚡ JOÃO GABRIEL CANSI SILVEIRA</div>
+          <div class="hero-sub">Full Stack Developer | Computer Engineering Student @ UNINGÁ</div>
+
+          <!-- Botoes -->
+          <div class="social-group">
+            <a href="https://linkedin.com/in/joao-gabriel-cansi-silveira" target="_blank" class="social-btn bg-linkedin">
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/Khyarus" target="_blank" class="social-btn bg-github">
+              <span>GitHub</span>
+            </a>
+            <a href="mailto:PugDerpy@gmail.com" class="social-btn bg-email">
+              <span>Email</span>
+            </a>
+          </div>
+
+          <!-- Resumo YAML -->
+          <div class="yaml-card">
+            <div><span class="yaml-key">foco:</span> <span class="yaml-val">Desenvolvimento Web, APIs REST, Microsserviços e Engenharia de Software</span></div>
+            <div><span class="yaml-key">localizacao:</span> <span class="yaml-val">Maringá / Marialva, PR - Brasil</span></div>
+            <div><span class="yaml-key">bio:</span> <span class="yaml-val">Curioso por qualquer tecnologia que resolva problemas reais do mundo produtivo.</span></div>
+          </div>
+
+          <!-- Experiência Profissional -->
+          <div class="section-title">💼 EXPERIÊNCIA PROFISSIONAL</div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="item-role">Analista de Desenvolvimento Jr</div>
+              <div class="item-company">Bellinati Perez</div>
+              <div class="item-date">Nov. 2025 — Presente (Híbrido)</div>
+              <div class="item-desc">Desenvolvimento e manutenção de aplicações corporativas com PHP puro e Laravel. Manutenção em bancos SQL, análise de demandas, correção de bugs e suporte N3.</div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="item-role">Estagiário de Desenvolvimento</div>
+              <div class="item-company">Bellinati Perez</div>
+              <div class="item-date">Nov. 2024 — Nov. 2025 (1 ano)</div>
+              <div class="item-desc">Atuação no desenvolvimento de sistemas administrativos internos utilizando PHP, GitLab e metodologias ágeis.</div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="item-role">Técnico de TI (N2 / Servidesk)</div>
+              <div class="item-company">Bellinati Perez</div>
+              <div class="item-date">Mar. 2023 — Nov. 2024 (1 ano 9 mos)</div>
+              <div class="item-desc">Gestão da infraestrutura local, servidores Windows/Active Directory, manutenção física e suporte técnico à sede de Maringá.</div>
+            </div>
+          </div>
+
+          <!-- Formação Acadêmica -->
+          <div class="section-title">🎓 FORMAÇÃO ACADÊMICA</div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="item-role">Bacharelado em Engenharia de Computação</div>
+              <div class="item-company">UNINGÁ - Centro Universitário Ingá</div>
+              <div class="item-date">2021 — 2026 (Previsão de Conclusão)</div>
+              <div class="item-desc">Sistemas Embarcados, Práticas de Engenharia de Software, Arquitetura de Computadores e Automação.</div>
+            </div>
+          </div>
+
+          <!-- Tecnologias -->
+          <div class="section-title">🛠️ STACK &amp; FERRAMENTAS</div>
+          <div class="tech-grid">
+            <div class="tech-badge">🐘 PHP / Laravel</div>
+            <div class="tech-badge">⚛️ React / TS</div>
+            <div class="tech-badge">⚡ .NET / C#</div>
+            <div class="tech-badge">🐹 Go (Golang)</div>
+            <div class="tech-badge">🐬 MySQL / SQLite</div>
+            <div class="tech-badge">🐳 Docker / Linux</div>
+          </div>
+
+          <!-- Status final -->
+          <div style="margin-top: 18px;">
+            <span class="prompt">➜ </span><span class="path">~/workspace </span><span class="cmd">system --status</span>
+          </div>
+          <div class="comment" style="margin-top: 4px;">
+            <span class="typewriter">> [BUILD SUCCESSFUL] Sistema rodando. Sempre construindo algo novo 🚀</span>
+          </div>
+
+          <div class="progress-bar-bg">
+            <div class="progress-bar-fill"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
